@@ -153,7 +153,7 @@ unsigned long BMP_read_filesize(const char *);							//	宣告BMP圖檔大小(By
 int main(void)															//	main(主程式)
 {																		//	進入主程式
 	//***Show_data_structure副程式測試***
-	//Show_data_structure();												//	呼叫Show_data_structure副程式
+	Show_data_structure();												//	呼叫Show_data_structure副程式
 	
 	//***Count_char_point_str副程式測試***
 	//printf("123456789a之長度為：%u\n",Count_char_point_str("123456789a", True));
@@ -203,15 +203,11 @@ int main(void)															//	main(主程式)
 	//File_delete("test123.txt");												//	呼叫檔案刪除副程式，刪除"test123.txt"
 
 	//Neural_cell();
-	//system("\"C:\\WINDOWS\\system32\\rundll32.exe\" C:\\WINDOWS\\system32\\shimgvw.dll,ImageView_Fullscreen D:\\學習\\電腦資訊\\軟體\\常用副程式\\C語言\\統整測試專案\\Dev C\\Vision5\\test.BMP");
 	
 	//***影像處理相關副程式測試***
 	//***BMP_read_filesize副程式測試***
-	printf("BMP_read_filesize測試：%u",BMP_read_filesize("test"));
+	printf("BMP_read_filesize測試：%u\n",BMP_read_filesize("Lenna"));
 	
-	system("pause");													//	暫停程式
-	system("cls");														//	清除螢幕
-	system("pause");													//	暫停程式
 	return 0;															//	回傳0，程式結束
 }																		//	結束主程式
 //-----副程式-----
