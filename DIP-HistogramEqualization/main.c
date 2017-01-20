@@ -268,7 +268,7 @@ void ProcessIMG(const char *filename)									//	ProcessIMG副程式
 			//	呼叫RGBHistogramEqualization對影像進行直方圖等化後，呼叫ArrayToRAWImage副程式將AnalysisData轉換回BMP影像資料格式後以BmpWrite副程式寫入BMP檔
 			
 			char OutputFileName[50];						//	宣告OutputFileName陣列變數，記錄輸出檔名
-			sprintf(OutputFileName,"%s%s",filename,"-RGBGHE");
+			sprintf(OutputFileName,"%s%s",filename,"-RGBGHE");			//	建立輸出檔名字串(OutputFileName)
 			BmpWrite(ArrayToRAWImage(RGBHistogramEqualization(BmpToGraylevel(AnalysisData,xsize, ysize),xsize, ysize), xsize, ysize), xsize, ysize, OutputFileName);
 			//	呼叫BmpToGraylevel將影像轉為灰階後，再呼叫RGBHistogramEqualization對影像進行直方圖等化後，呼叫ArrayToRAWImage副程式將AnalysisData轉換回BMP影像資料格式後以BmpWrite副程式寫入BMP檔
 			
