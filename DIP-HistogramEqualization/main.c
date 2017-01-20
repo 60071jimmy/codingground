@@ -19,7 +19,7 @@
 #include <unistd.h>														//	引入標頭檔unistd.h
 //-----全域定義區-----
 #define MAX_PATH 256													//	定義檔案路徑最長長度為256字元
-#define FILE_ROOT_PATH "D:\\學習\\自然科學\\理化\\物理\\電學\\專題製作\\作品\\C語言程式影像處理\\test19(HSV色彩空間)\\"
+#define FILE_ROOT_PATH "D:\\"
 //	定義檔案根目錄絕對路徑位置(用於開啟圖檔)
 #define True true
 #define False false
