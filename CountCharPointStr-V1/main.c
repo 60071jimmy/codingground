@@ -1,3 +1,6 @@
+/* CountCharPointStr副程式
+   Develop by Jimmy
+ */
 //***標頭檔引入區***
 #include <stdio.h>								//	引用<stdio.h>函式庫
 //***副程式宣告區***
