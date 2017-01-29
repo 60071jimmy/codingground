@@ -9,6 +9,11 @@
 //***全域結構定義區***
 
 //***副程式宣告區***
+/*	ShowLongDouble副程式用於顯示long double(長浮點數)數值
+	雖long double(長浮點數)可記錄±1.7×10^(-308)~±1.7×10^308範圍內的數值
+	由於ShowLongDouble副程式處理與運算上數值寬度為64位元
+	因此傳入之InputNumber最大上限為2^64-1
+ */
 void ShowLongDouble(const long double InputNumber);
 int main()										//	主程式
 {												//	進入主程式
