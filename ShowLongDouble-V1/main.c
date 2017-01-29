@@ -40,13 +40,13 @@ void ShowLongDouble(const long double InputNumber)
 	}											//	結束else敘述
 	//***去除前導0***
 	char DisplayChar='\0';						//	宣告DisplayChar為字元(char)型態，並初始化為空字元
-	DisplayChar = floor(InputNumber/(long double)pow(10,TimesNumber)) - pow(10,1) * floor(InputNumber/(long double)pow(10,(TimesNumber + 1)));
+	DisplayChar = floor(DisplayNumber/(long double)pow(10,TimesNumber)) - pow(10,1) * floor(DisplayNumber/(long double)pow(10,(TimesNumber + 1)));
 	//	取出顯示數值
 	while((DisplayChar == 0) && (TimesNumber > 0))
 	//	若數值為0且TimesNumber(次方)大於0(不為個位數)
 	{											//	進入while敘述
 		TimesNumber = TimesNumber - 1;			//	遞減TimesNumber變數
-		DisplayChar = floor(InputNumber/(long double)pow(10,TimesNumber)) - pow(10,1) * floor(InputNumber/(long double)pow(10,(TimesNumber + 1)));
+		DisplayChar = floor(DisplayNumber/(long double)pow(10,TimesNumber)) - pow(10,1) * floor(DisplayNumber/(long double)pow(10,(TimesNumber + 1)));
 		//	取出顯示數值
 	}											//	結束while敘述
 	//***顯示數值***
@@ -66,7 +66,7 @@ void ShowLongDouble(const long double InputNumber)
 		{										//	進入if敘述
 			printf(".");						//	顯示小數點
 		}										//	結束if敘述
-		DisplayChar = floor(InputNumber/(long double)pow(10,TimesNumber)) - pow(10,1) * floor(InputNumber/(long double)pow(10,(TimesNumber + 1)));
+		DisplayChar = floor(DisplayNumber/(long double)pow(10,TimesNumber)) - pow(10,1) * floor(DisplayNumber/(long double)pow(10,(TimesNumber + 1)));
 		//	取出顯示數值
 		if( (DisplayChar >= 0) && (DisplayChar <= 9) )
 		//	若取出之數值介於0~9之間
