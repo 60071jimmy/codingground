@@ -1,7 +1,7 @@
 ### Histogram Equalization(直方圖等化)數位影像處理(Digial Image Processing,DIP)程式
 Develop by Jimmy Hu
 
-This project is adjusted algorithm from DIP-HistogramEqualization project. This main program could read all BMP files in the folder which named "BMP", and implement Histogram Equalization algorithm to each BMP file.The information of algorithm adjustment is following
+The algorithm of this project is adjusted from DIP-HistogramEqualization project. This main program could read all BMP files in the folder which named "BMP", and implement Histogram Equalization algorithm to each BMP file.The information of algorithm adjustment is following
 
 > The pure white pixel (R = 255, G = 255, B = 255) is excluded when implement Histogram Equalization algorithm.
 
