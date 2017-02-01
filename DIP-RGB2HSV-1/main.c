@@ -25,7 +25,7 @@ typedef struct BMP24RGB													//	宣告24位元BMP圖檔像素RGB資料結
 	unsigned char B;													//	宣告B成分變數
 }BMP24RGB;																//	結束BMP24RGB資料結構
 typedef struct HSV														//	宣告HSV資料結構
-{																		//	進入BMP24RGB資料結構
+{																		//	進入HSV資料結構
 	long double H;														//	宣告H成分變數
 	long double S;														//	宣告S成分變數
 	long double V;														//	宣告V成分變數
