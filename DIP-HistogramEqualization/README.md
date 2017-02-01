@@ -1,4 +1,6 @@
 ## 批次處理Histogram Equalization
+This main program could read all BMP files in the folder which named "BMP", and implement Histogram Equalization algorithm to each BMP file.
+
 本程式執行批次處理BMP圖片檔案之Histogram Equalization，使用方法說明如下：
 
 Step1：於執行檔目錄下建立一BMP資料夾。
