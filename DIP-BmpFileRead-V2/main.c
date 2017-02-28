@@ -400,7 +400,7 @@ int main(int argc, char** argv)											//	主程式
 {																		//	進入主程式 
 	BmpReadFilesizeTest();												//	呼叫BmpReadFilesizeTest副程式
 	
-	printf("請輸入BMP圖檔(ex:test.bmp)：");								//	顯示訊息"請輸入BMP圖檔(ex:test.bmp)："
+	printf("請輸入BMP圖檔(ex:test)：");								//	顯示訊息"請輸入BMP圖檔(ex:test.bmp)："
 	char *FilenameString;												//	宣告FilenameString字元指標用以記錄使用者輸入欲讀取之圖檔
 	FilenameString = (char*)malloc( MAX_PATH * sizeof(char) );			//	配置FilenameString字元指標記憶體大小
 	scanf("%s",FilenameString);											//	使用者輸入圖檔名稱 
