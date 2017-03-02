@@ -1,5 +1,6 @@
 /* CountCharPointStr副程式
    Develop by Jimmy
+   This program is licensed under GNU General Public License v3.
  */
 //***標頭檔引入區***
 #include <stdio.h>								//	引用<stdio.h>函式庫
