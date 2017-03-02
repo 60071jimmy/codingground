@@ -2,6 +2,7 @@
 	ShowLongDouble副程式用於顯示long double(長浮點數)數值
 	Develop by Jimmy Hu
 	Date:2017.1.29
+	This program is licensed under GNU General Public License v3.
  */
 //***標頭檔引入區***
 #include <stdio.h>								//	引用<stdio.h>函式庫
