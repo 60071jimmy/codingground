@@ -1,4 +1,6 @@
 # HueToBMP24RGB副程式說明
+在常見的RGB色彩空間中，顏色是以紅色(Red)、綠色(Green)與藍色(Blue)三個維度合成；HSV色彩模式則以色調(Hue)、飽和度(Saturation)與明度(Value)三個屬性代表。
+
 | BMP原始圖檔                         |    色調(Hue)                       |
 | :------:                           |    :-----------:                   |
 |![](https://i.imgur.com/KeLJ0s5.png)<br>圖1 Lenna原始圖檔|![](https://i.imgur.com/v74WQdp.png)<br>圖2 Lenna圖檔之Hue平面|
