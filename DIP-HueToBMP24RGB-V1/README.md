@@ -3,6 +3,8 @@
 
 R=Hue * 255 / 360；G=Hue * 255 / 360；B=Hue * 255 / 360
 
+以下為部分BMP輸入圖檔與色調(Hue)屬性平面輸出結果。
+
 | BMP原始圖檔                         |    色調(Hue)                       |
 | :------:                           |    :-----------:                   |
 |![](https://i.imgur.com/KeLJ0s5.png)<br>圖1 Lenna原始圖檔|![](https://i.imgur.com/v74WQdp.png)<br>圖2 Lenna圖檔之Hue平面|
