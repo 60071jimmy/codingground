@@ -1,6 +1,7 @@
 /*	數位影像處理程式
 	Develop by Jimmy
 	本副程式撰寫BmpReadXSizeTest副程式，用於BmpReadXSize副程式之呼叫與測試
+	This program is licensed under GNU General Public License v3.
  */
 //-----引入標頭檔-----
 #include <math.h>														//	引入標頭檔math.h
