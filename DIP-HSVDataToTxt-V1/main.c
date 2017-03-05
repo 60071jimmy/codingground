@@ -2,6 +2,7 @@
 	Develop by Jimmy
 	本程式實作BMP圖檔讀取，並將讀取得之RGB圖像資料轉換為HSV型態圖像資料，再將轉換後之HSV型態圖像資料寫入檔案。
 	Date:2017.1.30
+	This program is licensed under GNU General Public License v3.
  */
 //-----引入標頭檔-----
 #include <math.h>														//	引入標頭檔math.h
