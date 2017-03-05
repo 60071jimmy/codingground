@@ -5,6 +5,7 @@
  */
 /*	數位影像處理程式
 	Develop by Jimmy
+	This program is licensed under GNU General Public License v3.
 	已知Bug：
 		影像中值濾波需轉換至HSI色彩空間，對I進行中值濾波後再轉換回RGB，避免色彩改變
  */
