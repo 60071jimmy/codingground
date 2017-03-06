@@ -204,6 +204,22 @@ bool HSVDataToTxt(const char*,const HSV*,const int,const int);			//	宣告HSVDat
 	副程式輸出為轉換為灰階後之BMP24RGB型態圖像資料
  */
 BMP24RGB *BmpToGraylevel(const BMP24RGB*,const int,const int);			//	宣告BMP圖片資料轉灰階副程式
+/*	ImageSmoothing33副程式用於計算BMP24RGB型態圖像之3*3Mask平滑濾波
+	運算時使用之3*3 Mask如下：
+		-				-
+		|	1/9	1/9	1/9	|
+		|	1/9	1/9	1/9	|
+		|	1/9	1/9	1/9	|
+		-				-
+	舉例而言：
+	一圖像3*3區塊像素值如下：
+		-				-
+		|	10	20	30	|
+		|	40	10	20	|
+		|	70	40	50	|
+		-				-
+	計算平滑濾波得之像素值為10/9+20/9+30/9+40/9+10/9+20/9+70/9+40/9+50/9=290/9=32.2222
+ */
 BMP24RGB *ImageSmoothing33(const BMP24RGB*,const int,const int);		//	宣告ImageSmoothing33(BMP圖檔3*3Mask平滑濾波)副程式
 BMP24RGB *MedianFilter33(const BMP24RGB*,const int,const int);			//	宣告MedianFilter33(BMP圖檔3*3中值濾波)副程式
 BMP24RGB *ImageOCR(const BMP24RGB*,const int,const int);				//	宣告ImageOCR(影像OCR)副程式
