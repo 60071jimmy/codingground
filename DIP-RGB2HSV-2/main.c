@@ -1,6 +1,7 @@
 /*	數位影像處理程式
 	Develop by Jimmy
 	RGB color space and HSV color space transform.
+	This program is licensed under GNU General Public License v3.
  */
 //-----引入標頭檔-----
 #include <math.h>														//	引入標頭檔math.h
