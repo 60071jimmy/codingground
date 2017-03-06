@@ -8,6 +8,7 @@ R=Hue * 255 / 360；G=Hue * 255 / 360；B=Hue * 255 / 360
 | BMP原始圖檔                         |    色調(Hue)                       |
 | :------:                           |    :-----------:                   |
 |![](https://i.imgur.com/KeLJ0s5.png)<br>圖1 Lenna原始圖檔|![](https://i.imgur.com/v74WQdp.png)<br>圖2 Lenna圖檔之Hue平面|
+|![](https://i.imgur.com/KZYqcN4.png)<br>圖3 Moon原始圖檔|![](https://i.imgur.com/gkzhE2e.png)<br>圖4 Moon圖檔之Hue平面|
 |![](https://i.imgur.com/ipTGuVe.jpg)|![](https://i.imgur.com/I7yhKpq.png)|
 |![](https://i.imgur.com/0FY2YuQ.jpg)|![](https://i.imgur.com/ehMdgaF.png)|
 |![](https://i.imgur.com/SbuZwBy.jpg)|![](https://i.imgur.com/vrhYNBF.jpg)|
