@@ -241,6 +241,8 @@ BMP24RGB *BmpToGraylevel(const BMP24RGB*,const int,const int);			//	宣告BMP圖
 		|	70	40	50	|
 		-				-
 	計算平滑濾波得之像素值為10/9+20/9+30/9+40/9+10/9+20/9+70/9+40/9+50/9=290/9=32.2222
+	副程式輸入為(欲進行平滑濾波之BMP24RGB型態圖像資料,欲進行平滑濾波之圖像寬度,欲進行平滑濾波之圖像高度)
+	副程式輸出為進行平滑濾波後之BMP24RGB型態圖像資料
  */
 BMP24RGB *ImageSmoothing33(const BMP24RGB*,const int,const int);		//	宣告ImageSmoothing33(BMP圖檔3*3Mask平滑濾波)副程式
 BMP24RGB *MedianFilter33(const BMP24RGB*,const int,const int);			//	宣告MedianFilter33(BMP圖檔3*3中值濾波)副程式
