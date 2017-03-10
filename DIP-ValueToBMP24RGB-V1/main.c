@@ -2,6 +2,7 @@
 	Develop by Jimmy
 	本程式實作BMP圖檔讀取，並將圖像資料轉換至HSV型態，再將HSV型態中之Value取出建立Value.BMP圖檔
 	Date:2017.1.30
+	This program is licensed under GNU General Public License v3.
  */
 //-----引入標頭檔-----
 #include <math.h>														//	引入標頭檔math.h
