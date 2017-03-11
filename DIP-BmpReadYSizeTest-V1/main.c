@@ -6,6 +6,7 @@
 #include <stdbool.h>													//	引入標頭檔stdbool.h
 #include <stdio.h>														//	引入標頭檔stdio.h
 #include <stdlib.h>														//	引入標頭檔stdlib.h
+#include <string.h>														//	引入標頭檔string.h
 #include <unistd.h>														//	引入標頭檔unistd.h
 //-----全域定義區-----
 #define MAX_PATH 256													//	定義檔案路徑最長長度為256字元
