@@ -7,3 +7,10 @@ codingground網址：
 
 https://www.tutorialspoint.com/codingground.htm
 
+C語言程式專案編譯預設指令：
+
+gcc -o main *.c
+
+可以藉由64位元的gcc編譯：
+
+x86_64-redhat-linux-gcc -o main *.c
